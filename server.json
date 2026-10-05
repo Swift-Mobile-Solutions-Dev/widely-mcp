@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.widely-mobile/widely",
+  "title": "Widely",
+  "description": "Connect your communications to your AI. Read calls, transcripts, voicemail, messages, contacts, and the numbers on a Widely account. The person approves every permission and can disconnect at any time.",
+  "version": "1.0.0",
+  "websiteUrl": "https://widely-mobile.com/mcp",
+  "repository": {
+    "url": "https://github.com/Swift-Mobile-Solutions-Dev/widely-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.widely-mobile.com/mcp"
+    }
+  ]
+}

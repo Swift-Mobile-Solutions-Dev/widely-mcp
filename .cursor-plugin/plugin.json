@@ -1,0 +1,12 @@
+{
+  "name": "widely",
+  "version": "1.0.0",
+  "description": "Phone and telecom for your AI. Read calls, transcripts, voicemail, messages, and the numbers on a Widely account. You approve each permission in Widely and can disconnect at any time.",
+  "author": {
+    "name": "Widely Mobile Ltd",
+    "email": "info@widely-mobile.com"
+  },
+  "keywords": ["phone", "calls", "sms", "voicemail", "telecom", "transcripts"],
+  "logo": "assets/logo.png",
+  "homepage": "https://widely-mobile.com/mcp"
+}

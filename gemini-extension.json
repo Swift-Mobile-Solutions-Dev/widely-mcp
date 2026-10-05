@@ -1,0 +1,10 @@
+{
+  "name": "widely",
+  "version": "1.0.0",
+  "mcpServers": {
+    "widely": {
+      "description": "Connect your communications to your AI. Telecom operating layer for AI agents.",
+      "httpUrl": "https://mcp.widely-mobile.com/mcp"
+    }
+  }
+}

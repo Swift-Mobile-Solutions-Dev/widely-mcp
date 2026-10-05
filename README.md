@@ -22,3 +22,16 @@ This folder is the plugin root (`.cursor-plugin/plugin.json`, `mcp.json`, `asset
 ## Claude Connectors and ChatGPT
 
 Both take the same remote URL, `https://mcp.widely-mobile.com/mcp`, OAuth (no API key), the docs URL, the privacy URL, and `assets/logo.png`. Those two portals need the Widely publisher login; they cannot be filed from the repo.
+
+## Gemini CLI
+
+```bash
+gemini extensions install https://github.com/Swift-Mobile-Solutions-Dev/widely-mcp
+```
+
+On first tool use, Gemini CLI opens a browser for Widely OAuth (Dynamic Client Registration).
+
+## Cline
+
+Follow `llms-install.md`. Add the remote URL `https://mcp.widely-mobile.com/mcp` and complete Widely OAuth. Do not run a local install from this repository.
+

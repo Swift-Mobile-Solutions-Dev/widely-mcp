@@ -39,4 +39,5 @@ jobs:
           additional_permissions: |
             actions: read
           claude_args: |
-            --append-system-prompt "Follow the repository's AGENTS.md and CLAUDE.md rules. Open pull requests against the main branch."
+            --allowedTools "Bash(gh pr create:*),Bash(gh pr view:*),Bash(gh pr list:*)"
+            --append-system-prompt "Follow the repository's AGENTS.md and CLAUDE.md rules. Open pull requests against the main branch. When you finish a task that was started from an issue or issue comment (not already on an existing PR branch), ALWAYS open the pull request yourself with gh pr create --base main before you stop. Never leave only a Create PR link; nobody clicks those links."
